@@ -1,0 +1,32 @@
+#h1{
+    background-color: chocolate;
+    color :whitesmoke;
+    border-style: double;
+}
+#h2{
+    background-color: aliceblue;
+    color: black;
+    border-style: dotted;
+}
+#main{
+      background-color: yellow;
+      color: black;
+      border-style: dashed;
+      text-rendering: geometricPrecision;    
+}
+#h3{
+    background-color: aliceblue;
+    color: royalblue;
+    border-style: inset;
+}
+#h4{
+    background-color: blue;
+    color: aliceblue;
+}
+#div1{
+    background-color: black;
+    color: white;
+    columns: initial;
+    border-style: solid;
+    display: inline-flex;
+}
