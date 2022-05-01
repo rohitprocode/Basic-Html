@@ -30,3 +30,17 @@
     border-style: solid;
     display: inline-flex;
 }
+.popular{
+    color: white;
+    background-image: url(Gaming_5000x3125.jpg);
+    background-size: cover;
+    width: 1600px;
+    height: 230px;
+    background-attachment:fixed;
+}
+a{
+    color: aliceblue;
+}
+html{
+    background-image: url(bluebgimage.jpg);
+}
