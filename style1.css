@@ -37,10 +37,16 @@
     width: 1600px;
     height: 230px;
     background-attachment:fixed;
+    border-color: red;
+    border: 1px solid;
 }
 a{
     color: aliceblue;
 }
 html{
     background-image: url(bluebgimage.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
 }
