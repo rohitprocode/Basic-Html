@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Navigationbar-Flexbox</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        main{
+            background-color: black;
+            color: white;
+           
+        }
+        li{
+            padding-top: 50px;
+            display: inline-block;
+            height: 80px;
+            font-size: 5vh;
+        
+        }
+        ul{
+            text-align: center;
+        }
+        box{
+            padding-left: 50px;
+            padding-top: 50px;
+            padding-right: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .container1{
+            background-color:royalblue;
+            height: 20vh;
+            width: 250px;
+        }
+        .container2{
+            background-color: greenyellow;
+            height: 20vh;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </main>
+    <box>
+    <div class="container1">This is First</div>
+    <div class="container2">This is Second</div>
+    </box>
+    
+</body>
+</html>
