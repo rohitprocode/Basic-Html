@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green-Red-Yellow Media Query</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            background-color: greenyellow;
+        }
+        P1{
+            
+            padding-top: 21px;
+           
+        }
+        .container{
+            background-color: white;
+            color: black;
+        }
+        @media screen and (max-width: 1050px){
+             body{
+                 background-color: red;
+             }
+        }
+        @media screen and (max-width: 500px){
+            body{
+                background-color: yellow;
+            }
+        }
+        header {
+            
+            text-align: center;
+            width: 100vw;
+            height: 10vh;
+            background-color: black;
+            color: white;
+        }
+        footer{
+            text-align: center;
+            width: 100vw;
+            height: 10vh;
+            background-color: black;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>
+                <P1>This is Header box.</P1>
+            </h1>  
+        </header>
+        
+        <div class="container">This is Container
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque reprehenderit tempora doloribus ad eligendi magni architecto repudiandae quidem, obcaecati vitae eum veniam voluptas pariatur eius facilis aliquid nulla quia facere non temporibus dolorum at eaque? Vitae sed non assumenda! Est, nisi quas cupiditate enim explicabo hic sequi corrupti voluptatum ipsa iste temporibus. Incidunt est ipsam, consequuntur non enim soluta sit tempore ipsum repellendus voluptatem iure numquam. Reprehenderit magni fugiat iure asperiores tempore numquam, odio explicabo vel dicta ducimus quae molestiae, repudiandae ea obcaecati a fugit, optio rerum quasi. Voluptas.</p>
+        </div>
+   
+    <footer>
+            <h1>This is footer Box.</h1>
+    </footer>
+    
+</body>
+</html>
