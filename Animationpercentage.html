@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Animation Value of Css</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .container{
+            background-color: black;
+            width: 100vw;
+            height: 90vh;
+        }
+        .box{
+            outline:2px groove white;
+            background-color: aqua;
+            color: darkred;
+            width: 250px;
+            height: 300px;
+            text-align: center;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            /* animation-name: Rohit; */
+            /* animation-duration: 2s; */
+            /* animation-timing-function:ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-iteration-count:3; */
+            /* animation-direction:alternate-reverse; */
+            animation: Rohit2 2s ease-in-out infinite alternate;
+        }
+        p{
+            outline:2px groove white;  
+        }
+        /* @keyframes Rohit{ */
+            /* { */
+                /* width:250px; */
+            /* } */
+            /* To{ */
+                /* width:900px; */
+            /* } */
+        /* } */
+
+        @keyframes Rohit2{
+            0%{
+                width:250px;
+            }
+            50%{
+                Width: 400px;
+            }
+            100%{
+                Width:900px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box"> <img src="Mi2.png" alt="mi logo" width="240px"></div>
+    </div>
+</body>
+</html>
