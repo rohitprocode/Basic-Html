@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation of Css</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .container{
+            background-color: black;
+            width: 100vw;
+            height: 90vh;
+        }
+        .box{
+            outline:2px groove white;
+            background-color: aqua;
+            color: darkred;
+            width: 250px;
+            height: 300px;
+            text-align: center;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            /* animation-name: Rohit; */
+            /* animation-duration: 2s; */
+            /* animation-timing-function:ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-iteration-count:3; */
+            /* animation-direction:alternate-reverse; */
+            animation: Rohit 2s ease-in-out 3 alternate-reverse;
+        }
+        p{
+            outline:2px groove white;  
+        }
+        @keyframes Rohit{
+            from{
+                width:250px;
+            }
+            To{
+                width:900px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box"><p>This is My Box</p></div>
+    </div>
+</body>
+</html>
