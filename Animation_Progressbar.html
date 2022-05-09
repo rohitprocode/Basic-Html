@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progess Bar With animation</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .rectangle{
+            background-color: gold;
+            width: 100vw;
+            height: 20vh;
+        }
+        .box{
+            background-color: pink;
+            width: 100vw;
+            height: 20vh;
+        }
+        .progress{
+            background-color: red;
+            width: 100vw;
+            height: 2px;
+            color: greenyellow;
+            animation: Likeyt 2s ease-in-out 1 normal;
+        }
+        @keyframes Likeyt{
+            0%{
+                width: 0vw;
+            }
+            50%{
+                width: 90vw;
+            }
+            100%{
+                width: 100vw;
+            }
+
+        }
+    </style>
+</head>
+<body>
+        <header><div class="progress"></div></header>
+    
+        <div class="rectangle"></div>
+        <div class="box"></div>
+        
+    
+</body>
+</html>
