@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Animation of Image</title>
+    <style>
+        .container{
+            width: 95vw;
+            height: 50vw;
+        }
+        .container img{
+            width: 90vw;
+            height: 45vw;
+            animation: CSK 5s ease-in  infinite;
+             
+        }
+        @keyframes CSK{
+                 From{
+                    transform: rotate(0deg);
+                 }
+                 To{
+                    transform: rotate(360deg);
+                 }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="csk.jpg" alt="Csk Logo" width="500px">
+    </div>
+    
+</body>
+</html>
