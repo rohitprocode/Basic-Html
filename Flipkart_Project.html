@@ -20,12 +20,15 @@
         }
 
         header {
-            height: 50px;
+            height: 3vw;
             background-color: var(--main-bg-color);
             color: white;
+            min-width:fit-content;
         }
 
-        nav {}
+        nav {
+            position: relative;
+        }
 
         nav ul {
             height: 7vh;
@@ -37,7 +40,7 @@
 
         li {
             list-style: none;
-            padding: 5px;
+            padding: 1vw;
         }
 
         nav {
@@ -45,14 +48,14 @@
         }
 
         .logo {
-            padding: 10px;
-            margin-top: 7px;
+            padding: 0.6vw;
+            margin-top: .4vw;
         }
 
         nav ul li a {
             color: white;
             text-decoration: none;
-            margin: 20px;
+            margin: 1vw;
         }
 
         a:hover {
@@ -60,8 +63,8 @@
         }
 
         .search {
-            margin-left: 60px;
-            height: 50px;
+            margin-left: 2vw;
+            height: 3vw;
             display: flex;
             justify-items: center;
             align-items: center;
@@ -70,22 +73,22 @@
         .search input {
 
 
-            padding-left: 10px;
-            height: 3vh;
+            padding-left: .9vw;
+            height: 1.5vw;
             width: 60vh;
-            border-radius: 5px;
+            border-radius: .5vw;
         }
 
         .btn {
-            padding: 7px 20px 7px 20px;
-            margin: 20px;
-            height: 25px;
+            padding: .5vw 2vw .5vw 2vw;
+            margin: .5vw;
+            height: 2vw;
             align-items: center;
             display: flex;
-            border-radius: 2px;
+            border-radius: .2vw;
             background-color: var(--main-bg-color);
             color: white;
-            border: 2px solid white;
+            border: .15vw solid white;
             border-radius: 2vh;
             ;
         }
@@ -99,33 +102,52 @@
 
 
             height: 50vw;
-            margin-top: 10px;
+            margin-top: .5vw;
         }
 
         .slider img {
-            margin-left: 60px;
-            width: 90vw;
-            height: 25vw;
-
+             width: 90vw;
+             height: 35vw;
+            margin-left:5em;
+           
         }
 
         .card {
             text-decoration: underline;
-            width: 330px;
+            width: 25vw;
 
         }
 
-        .container2{
+        .card-2 {
+            text-decoration: underline;
+            width: 25vw;
+            margin-top: -8vh;
+        }    
+
+        .card-item img{
+                    width: 30vh;
+                    height: 50vh;
+                    
+        }
+        
+
+        .container2 {
             display: flex;
+            justify-content: space-evenly;
+            margin-top: 1vw;
+        
+
             /* flex-direction: column; */
-            text-align: start;
+            /* text-align: start; */
         }
 
-        .card-item {
-            background-color: red;
-            
-            width: 1400px;
-            margin: auto;
+        .container3 {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 1vw;
+
+            /* flex-direction: column; */
+            /* text-align: start; */
         }
 
         .lines {
@@ -133,21 +155,23 @@
             padding-top: 1vw;
             display: flex;
             flex-direction: column;
-            font-size: 4vh;
-            height: 200px;
-            max-width: 1400px;
-            margin-left: 50px;
+            font-size: 3vh;
+            height: 15vw;
+            max-width: 14vw;
+            margin-left: 1.5vw;
             font-family: 'Merriweather', serif;
         }
-
+    
         footer {
-            height: 10vh;
+
+            box-sizing: border-box;
+            margin-top: 70vw;
             background-color: var(--main-bg-color);
             color: white;
             display: flex;
             justify-content: center;
-            justify-items: center;
             align-items: center;
+            width: 100vw;
         }
     </style>
 </head>
@@ -173,67 +197,147 @@
     <main>
         <div class="container">
             <div class="slider">
-                <img src="mountain.jpg" alt="Logo">
+                <img src="https://storiesflistgv2.blob.core.windows.net/stories/2019/09/Flipkart-BigBillionDays2019-banner.jpg" alt="Flipkart">
             </div>
+            <div class="cardspace">
+                <div class="card">
+                    <h2>Big Discount on Mobile Phones</h2>
+                </div>
 
-            <div class="card">
-                <h2>Big Discount on Mobile Phones</h2>
-            </div>
+                <div class="container2">
+                    <div>
+                        <div class="card-item">
+                            <a href="https://www.flipkart.com/search?q=realme+gt+master+edition&sid=tyy%2C4io&as=on&as-show=on&otracker=AS_QueryStore_HistoryAutoSuggest_1_2_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_1_2_na_na_na&as-pos=1&as-type=HISTORY&suggestionId=realme+gt+master+edition%7CMobiles&requestId=2db98257-3d9c-4e23-ac55-31208e0ca893&as-backfill=on"><img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
+                                alt="Realme GT ME" id="img2"></a>
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
+                                alt="Realme GT ME" id="img2">
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
+                                alt="Realme GT ME" id="img2" >
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
+                                alt="Realme GT ME" id="img2" >
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
 
-            <div class="container2">
-            <div class="card-item">
-                <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
-                    alt="Realme GT ME" id="img2" width="160px" height="210px">
+                    <div style="text-align: start">
+                        <div class="card-item">
+                            <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
+                                alt="Realme GT ME" id="img2" >
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+                <div class="card-2">
+                    <h2>Big Discount on Laptops</h2>
+                </div>
+
+                <div class="container3">
+                    <div>
+                        <div class="card-item">
+                         <a href="https://www.flipkart.com/search?q=acer+nitro+5&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&as-pos=2&as-type=HISTORY&suggestionId=acer+nitro+5%7CLaptops&requestId=f0ab88de-9ca0-468c-b1c6-2fd8d60f4705&as-backfill=on"><img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/n/y/n/na-gaming-laptop-acer-original-imag7whp9urft8mf.jpeg?q=70"
+                                alt="Acer Nitro 5" id="img2" ></a>
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/n/y/n/na-gaming-laptop-acer-original-imag7whp9urft8mf.jpeg?q=70"
+                                alt="Acer Nitro 5" id="img2" >
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/n/y/n/na-gaming-laptop-acer-original-imag7whp9urft8mf.jpeg?q=70"
+                                alt="Acer Nitro 5" id="img2">
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-item">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/n/y/n/na-gaming-laptop-acer-original-imag7whp9urft8mf.jpeg?q=70"
+                                alt="Acer Nitro 5" id="img2">
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: start">
+                        <div class="card-item">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/n/y/n/na-gaming-laptop-acer-original-imag7whp9urft8mf.jpeg?q=70"
+                                alt="Acer Nitro 5" id="img2">
+                        </div>
+                        <div class="lines">
+                            <p>GT ME</p>
+                            <p>Min-20% off</p>
+                            <p>Grab Now</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="lines">
-                <p>GT ME</p>
-                <p>Min-20% off</p>
-                <p>Grab Now</p>
-            </div>
-            <div class="card-item">
-                <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
-                    alt="Realme GT ME" id="img2" width="160px" height="210px">
-            </div>
-            <div class="lines">
-                <p>GT ME</p>
-                <p>Min-20% off</p>
-                <p>Grab Now</p>
-            </div>
-            <div class="card-item">
-                <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
-                    alt="Realme GT ME" id="img2" width="160px" height="210px">
-            </div>
-            <div class="lines">
-                <p>GT ME</p>
-                <p>Min-20% off</p>
-                <p>Grab Now</p>
-            </div>
-            <div class="card-item">
-                <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
-                    alt="Realme GT ME" id="img2" width="160px" height="210px">
-            </div>
-            <div class="lines">
-                <p>GT ME</p>
-                <p>Min-20% off</p>
-                <p>Grab Now</p>
-            </div>
-            <div class="card-item">
-                <img src="https://rukminim2.flixcart.com/image/832/832/ksgehzk0/mobile/n/b/z/gt-master-edition-rmx3360-realme-original-imag6yg7hbzxuc6s.jpeg?q=70"
-                    alt="Realme GT ME" id="img2" width="160px" height="210px">
-            </div>
-            <div class="lines">
-                <p>GT ME</p>
-                <p>Min-20% off</p>
-                <p>Grab Now</p>
-            </div>
-           
-        </div>    
         </div>
-
     </main>
 
     <footer>
-        All Rights Reserved &copy; Copyright
+        <p class="footer-text">
+            All Rights Reserved &copy; Copyright
+        </p>
+
     </footer>
 
 </body>
