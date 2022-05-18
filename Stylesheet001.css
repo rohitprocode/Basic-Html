@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Macondo&family=Merriweather:ital,wght@0,300;1,900&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* i want to use text-decration:none in category class */
+}
+
+header {
+    height: 3vw;
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    color: white;
+    /* min-width:fit-content; */
+    border-bottom: 2px solid white;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    height: 7vh;
+    display: inline-flex;
+    justify-items: flex-start;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    padding: 1vw;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    padding: 0.6vw;
+    margin-top: .4vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.search {
+    margin-left: 2vw;
+    height: 3vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.search input {
+
+
+    padding-left: .9vw;
+    height: 1.5vw;
+    width: 60vh;
+    border-radius: .5vw;
+}
+
+.btn {
+    padding: .5vw 2vw .5vw 2vw;
+    margin: .5vw;
+    height: 2vw;
+    align-items: center;
+    display: flex;
+    border-radius: .2vw;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: .15vw solid white;
+    border-radius: 2vh;
+    ;
+}
+
+.btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    height: 50vw;
+    /* margin-top: .5vw; */
+}
+
+.category{
+    
+    display:-webkit-flex; 
+    justify-content: space-evenly;
+    background-color:white;
+    width: 100vw;
+    height: 6vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.category img{
+                width: 4vw;
+                display: flex;
+}
+
+
+.slider img {
+    position:sticky;
+     width: 100vw;
+     height: 28vw;
+}
+
+.card {
+    
+    text-decoration: underline;
+    width: 25vw;
+
+}
+
+.card-2 {
+    text-decoration: underline;
+    width: 25vw;
+    margin-top: -8vh;
+}    
+
+.card-item img{
+            width: 30vh;
+            height: 50vh;
+            
+}
+.card-item-2 img{
+    width: 40vh;
+    height: 25vh;
+    
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vw;
+
+
+    /* flex-direction: column; */
+    /* text-align: start; */
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vw;
+
+    /* flex-direction: column; */
+    /* text-align: start; */
+}
+
+.lines {
+    /* background-color: purple; */
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    height: 15vw;
+    max-width: 14vw;
+    margin-left: 1.5vw;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+
+    box-sizing: border-box;
+    margin-top: 120vw;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
