@@ -11,7 +11,7 @@
 }
 
 header {
-    height: 3vw;
+    height: 3.5vw;
     width: 100vw;
     background-color: var(--main-bg-color);
     color: white;
@@ -37,7 +37,8 @@ li {
 }
 
 nav {
-    display: flex;
+    display: block;
+    display:flex;
 }
 
 .logo {
@@ -46,26 +47,37 @@ nav {
     color: black;
 }
 
-.logo img{
-    dis
-}
-
 .flipkartimg{
     height: 3vh;
     width: 12vh;
     margin-top: -10vh;
+    margin-bottom: 0px;
+    
+}
+
+.nav{
+    margin-right: 100px;
 }
 
 .explore{
+    font-family: roboto, sans-serif;
+    color: white;
     display: inline-flex;
-    margin-left: -90px;
-
+    margin-top: -2px;
+    display:ruby-text;
 }
 
-.explore img{
-    width: 2vh;
-    border: 1px solid black;
-}           
+.explore p{
+    color: yellow;
+}
+
+.pluslogo img{
+    width: 12px;
+    height: 12px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
 
 nav ul li a {
     color: white;
