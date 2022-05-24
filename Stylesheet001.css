@@ -11,7 +11,14 @@
 }
 a{
     text-decoration: none;
+   
 }
+
+a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 header {
     height: 3.5vw;
@@ -140,6 +147,7 @@ a:hover {
     width: 10vh;
     align-items: center;
     margin-left: 2vh;
+    font-size: 1.9vh;
 }
 
 .myprofile a{
