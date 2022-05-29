@@ -1,0 +1,113 @@
+* {
+    background-color: #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.top nav {
+    height: 10vw;
+    width: 100vw;
+}
+
+.container0 {
+    display: flex;
+
+}
+
+.container1{
+    margin-left: 5vh;
+}
+
+.facebook img {
+    width: 20vw;
+}
+
+.paragraph {
+
+    font-size: 4vh;
+}
+
+.container2 {
+    display: flow-root;
+    text-align: center;
+    border-radius: 2vh;
+    box-shadow: 5vh;
+    align-items: center;
+    width: 60vh;
+    height: 50vh;
+    background-color: white;
+}
+
+.container2 input {
+    width: 45vh;
+    height: 5vh;
+    background-color: white;
+
+}
+
+.contA {
+    margin-top: 2vh;
+    display: flow-root;
+    text-align: center;
+    background-color: white;
+
+}
+
+.contA #Email {
+    border: 1px solid grey;
+    border-radius: 1vh;
+    height: 6vh;
+    margin-bottom: 2vh;
+    padding-left: 2vh;
+    font-size: 2.1vh;
+}
+
+.contA #password {
+    border: 1px solid grey;
+    border-radius: 1vh;
+    height: 6vh;
+    margin-bottom: 2vh;
+    padding-left: 2vh;
+    font-size: 2.1vh;
+}
+
+
+
+#login {
+    display: flexbox;
+    border-radius: 1vh;
+    font-size: 2.2vh;
+    border: 0px;
+    width: 45vh;
+    height: 5vh;
+    color: white;
+    background-color: #1877f2;
+}
+
+.container2 p{
+    background-color: white ;
+}
+
+.container2 p a{
+    background-color: white;
+}
+
+#hr{
+    width: 55vh;
+}
+
+.create{
+    background-color: white;
+}
+
+.create button {
+    font-size: 2.2vh;
+    width: 39vh;
+    height: 8vh;
+    background-color: #42b72a;
+    color: white;
+    border: 0px;
+    border-radius: 1vh;
+}
+
+
+
