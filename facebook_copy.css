@@ -16,33 +16,42 @@
 }
 
 .container1{
-    margin-left: 25vh;
-    width:  38vw;
+    margin-top: 1.5vh;
+    margin-left: 35.5vh;
+    width:  35vw;
 }
 
 .facebook img {
     width: 20vw;
+    margin-top: .3vh;
     margin-bottom: -5vh;
     margin-left: -5vh;
 }
 
 .paragraph {
-    font-size: 4vh;
+    margin-left: -2vh;
+    font-size: 3.5vh;
+}
+
+.paragraph p{
+    width: 32vw;
+    font-weight: lighter;
 }
 
 .container2_3{
-    margin-top: -8vh;
+    margin-left: 4vh;
+    margin-top: -3vh;
 }
 
 .container2 {
     display: flow-root;
     text-align: center;
     border-radius: 1vh;
-    box-shadow: .5px .5px .5px .5px;
     align-items: center;
-    width: 52vh;
-    height: 45vh;
+    width: 53vh;
+    height: 45.5vh;
     background-color: white;
+    box-shadow: .1px 3px 4px 3px lightgrey;
 }
 
 .container2 input {
@@ -61,7 +70,7 @@
 }
 
 .contA #Email {
-    width: 45vh;
+    width: 46vh;
     border: 1px solid grey;
     border-radius: 1vh;
     height: 6vh;
@@ -71,7 +80,7 @@
 }
 
 .contA #password {
-    width: 45vh;
+    width: 46vh;
     border: 1px solid grey;
     border-radius: 1vh;
     height: 6vh;
@@ -84,21 +93,36 @@
 
 #login {
     display: flexbox;
+    border-color: #1877f2;
     border-radius: 1vh;
     font-size: 2.2vh;
     border: 0px;
-    width: 55vh;
-    height: 7vh;
+    width: 47.5vh;
+    height: 6.2vh;
     color: white;
     background-color: #1877f2;
     font-weight:bolder;
     cursor: pointer;
 }
 
+#login :hover{
+    color: darkblue;
+}
+
 #login a{
     background-color: #1877f2;
     color: white;
     text-decoration: none;
+}
+
+#fpass a{
+    color: #1877f2;
+    font-size: 1.9vh;
+    text-decoration: none;
+}
+
+#fpass :hover{
+    text-decoration: underline;
 }
 
 .container2 p{
@@ -110,8 +134,9 @@
 }
 
 #hr{
-    width: 55vh;
-    border: 1px solid #dadde1;
+    width: 45vh;
+    border: .1px solid;
+    color:  #dadde1;
 }
 
 .create{
@@ -123,7 +148,7 @@
     font-size: 2.2vh;
     width: 25vh;
     height: 6.5vh;
-    margin-top: 2vh;
+    margin-top: 1.8vh;
     background-color: #42b72a;
     color: white;
     border: 0px;
@@ -132,7 +157,7 @@
 }
 
 .createpage{
-    margin-top: 5vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
