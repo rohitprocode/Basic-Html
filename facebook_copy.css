@@ -6,6 +6,8 @@
 .top nav {
     height: 10vw;
     width: 100vw;
+    position: relative;
+    visibility: hidden;
 }
 
 .container0 {
@@ -28,14 +30,18 @@
     font-size: 4vh;
 }
 
+.container2_3{
+    margin-top: -8vh;
+}
+
 .container2 {
     display: flow-root;
     text-align: center;
-    border-radius: 2vh;
-    box-shadow: 5vh;
+    border-radius: 1vh;
+    box-shadow: .5px .5px .5px .5px;
     align-items: center;
-    width: 60vh;
-    height: 50vh;
+    width: 52vh;
+    height: 45vh;
     background-color: white;
 }
 
@@ -55,6 +61,7 @@
 }
 
 .contA #Email {
+    width: 45vh;
     border: 1px solid grey;
     border-radius: 1vh;
     height: 6vh;
@@ -64,6 +71,7 @@
 }
 
 .contA #password {
+    width: 45vh;
     border: 1px solid grey;
     border-radius: 1vh;
     height: 6vh;
@@ -83,7 +91,7 @@
     height: 7vh;
     color: white;
     background-color: #1877f2;
-    font-weight: bold;
+    font-weight:bolder;
     cursor: pointer;
 }
 
@@ -111,14 +119,36 @@
 }
 
 .create button {
+    font-weight: bold;
     font-size: 2.2vh;
-    width: 39vh;
-    height: 8vh;
+    width: 25vh;
+    height: 6.5vh;
+    margin-top: 2vh;
     background-color: #42b72a;
     color: white;
     border: 0px;
     border-radius: 1vh;
+    cursor: pointer;
 }
+
+.createpage{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.createpage a{
+    color: black;
+    text-decoration: none;
+}
+
+.createpage p{
+            font-size: 14px;
+}
+
+.createpage a :hover{
+    text-decoration: underline;
+}
+
 
 
 
