@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+</head>
+<body>
+    <h1>Welcome To this JavaScript Tutorial</h1>
+    <div id="containerfirst" class="container">
+    <button id="click">Click Me</button>
+</div>
+
+<div id="conatinersecond" class="container">
+    <p>This is Paragraph</p>
+    </div>
+</body>
+<script>
+    // 1. Ways to Print in Javascript
+    // console.log("Hello Rohit");
+    // alert("Beware of unwanted ads");
+    // document.write("Hello This is Document.write");
+
+    // 2. JavaScript Console API
+    /*console.log("Hello World", 5+5,   "Another log");
+    console.warn("Attention");
+    console.error("Error");*/
+
+    // 3. JavaScript Variables
+    //What are Variables? - Containers to store data values.
+
+    //Numbers
+    var number1 = 56;
+    var number2 = 44;
+    // console.log( number1 + number2 );
+
+    //Strings
+    var str1 = " This is Rohit " ;
+    var str2 = " This is Mohit " ;  
+
+    //Objects
+     var marks = {
+        Rohit: 99.9,
+        Mohit: 99.9,
+        Ayush: 94,
+        Nikhil: 96  
+    } 
+     
+    // console.log(marks);
+
+    //booleans
+    var a = true;
+    var b = false;
+
+    // undefined
+     var und;
+    // console.log(und);
+  
+    //null
+    var n = null;
+    // console.log(n);
+
+    //Symbol
+   Symbol('');
+
+    /*
+    At a Very High Level , There are two types of data types in JavaScript
+    1.Primitive Data Types: Undefined, Null, Numbers, Strings, Booleans, Symbol;
+    2.Reference Data Types: Arrays And Objects */
+
+    // Array
+
+    var arr = [ 1, 2, "Rohit", 4, 5 ];
+    // console.log(arr);
+
+    // Operators in JavaSript
+    // Airthmetic Operators
+
+    var a = 1000;
+    var b = 10
+
+  /*  console.log("The Value of a + b is", a+b);
+    console.log("The Value of a - b is", a-b);
+    console.log("The Value of a * b is", a*b);
+    console.log("The Value of a / b is", a/b); */
+
+    // Assignment Operators
+
+    // var c = b;
+   /* c += 2; 
+    c -= 2;
+    c /= 2;
+    c *= 2; */
+    // console.log(c);
+
+    // Comparison Operators
+    var a = 50;
+        b = 100;
+
+    // console.log(a==b);
+    // console.log(a<=b);
+    // console.log(a>=b);
+    // console.log(a>b);
+    // console.log(a<b);
+
+    // Logical Operators
+
+    // Logical and
+
+    // console.log( true && true );
+    // console.log( true && false );
+    // console.log( false && true );
+    // console.log( false && false );
+
+    // Logical Or
+    /* console.log( true || true );
+    console.log( true || false );
+    console.log( false || true );
+    console.log( false || false ); */
+
+    // Logical Not  
+    // console.log(!false);
+    // console.log(!true);
+
+    // Functions in JavaScript
+
+   function avg( a, b){
+       c = ( a + b )/2;
+       return c;
+   }
+
+//    DRY : Do Not Repeat Yourself
+
+   c1 = avg( 20, 10);
+   c2 = avg( 200, 500);
+//    console.log( c1, c2 );
+
+// Conditionals in JavaScripts
+
+// var age = 50;
+
+// Single if Statement
+
+//    if ( age > 18 ){
+    //    console.log('You are eligible');
+//    }
+//    if - else statement 
+
+/* if ( age > 18 ){
+    console.log('Hurray! Your are Eligile');
+}
+else{
+    console.log('You are not Eligible');
+} */
+
+  // if - else ladder
+
+  age = 26;
+
+  if ( age > 18){
+        console.log('Hurray! You are eligible and won 10% Cashback');   
+  }
+
+  else if ( age > 25){ 
+      console.log('Hurray! You are eligible and won 15% Cashback');
+  }
+
+  else if ( age > 30){
+      console.log('Hurray! You are eligible and won 20% Cashback');
+  }
+
+  else if ( age > 50){
+      console.log('Hurray! You are eligible and won 30% Cashback');
+  }
+
+  else if ( age > 65){
+      console.log('Hurray! You are eligible and won 50% Cashback');
+  }   
+
+  else {
+      console.log('Sorry! You are not eligible');
+  }
+
+</script>
+</html>     
