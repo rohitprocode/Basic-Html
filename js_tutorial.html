@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Tutorial</title>
 </head>
+
 <body>
     <h1>Welcome To this JavaScript Tutorial</h1>
     <div id="containerfirst" class="container">
-    <button id="click">Click Me</button>
-</div>
+        <button id="click">Click Me</button>
+    </div>
 
-<div id="conatinersecond" class="container">
-    <p>This is Paragraph</p>
+    <div id="conatinersecond" class="container">
+        <p>This is Paragraph</p>
     </div>
 </body>
 <script>
@@ -36,17 +38,17 @@
     // console.log( number1 + number2 );
 
     //Strings
-    var str1 = " This is Rohit " ;
-    var str2 = " This is Mohit " ;  
+    var str1 = " This is Rohit ";
+    var str2 = " This is Mohit ";
 
     //Objects
-     var marks = {
+    var marks = {
         Rohit: 99.9,
         Mohit: 99.9,
         Ayush: 94,
-        Nikhil: 96  
-    } 
-     
+        Nikhil: 96
+    }
+
     // console.log(marks);
 
     //booleans
@@ -54,15 +56,15 @@
     var b = false;
 
     // undefined
-     var und;
+    var und;
     // console.log(und);
-  
+
     //null
     var n = null;
     // console.log(n);
 
     //Symbol
-   Symbol('');
+    Symbol('');
 
     /*
     At a Very High Level , There are two types of data types in JavaScript
@@ -71,7 +73,7 @@
 
     // Array
 
-    var arr = [ 1, 2, "Rohit", 4, 5 ];
+    var arr = [1, 2, "Rohit", 4, 5];
     // console.log(arr);
 
     // Operators in JavaSript
@@ -80,23 +82,23 @@
     var a = 1000;
     var b = 10
 
-  /*  console.log("The Value of a + b is", a+b);
-    console.log("The Value of a - b is", a-b);
-    console.log("The Value of a * b is", a*b);
-    console.log("The Value of a / b is", a/b); */
+    /*  console.log("The Value of a + b is", a+b);
+      console.log("The Value of a - b is", a-b);
+      console.log("The Value of a * b is", a*b);
+      console.log("The Value of a / b is", a/b); */
 
     // Assignment Operators
 
     // var c = b;
-   /* c += 2; 
-    c -= 2;
-    c /= 2;
-    c *= 2; */
+    /* c += 2; 
+     c -= 2;
+     c /= 2;
+     c *= 2; */
     // console.log(c);
 
     // Comparison Operators
     var a = 50;
-        b = 100;
+    b = 100;
 
     // console.log(a==b);
     // console.log(a<=b);
@@ -125,15 +127,15 @@
 
     // Functions in JavaScript
 
-   function avg( a, b){
-       c = ( a + b )/2;
-       return c;
-   }
+    function avg(a, b) {
+        c = (a + b) / 2;
+        return c;
+    }
 
-//    DRY : Do Not Repeat Yourself
+    //    DRY : Do Not Repeat Yourself
 
-   c1 = avg( 20, 10);
-   c2 = avg( 200, 500);
+    c1 = avg(20, 10);
+    c2 = avg(200, 500);
 //    console.log( c1, c2 );
 
 // Conditionals in JavaScripts
@@ -147,40 +149,68 @@
 //    }
 //    if - else statement 
 
-/* if ( age > 18 ){
-    console.log('Hurray! Your are Eligile');
-}
-else{
-    console.log('You are not Eligible');
-} */
+    /* if ( age > 18 ){
+        console.log('Hurray! Your are Eligile');
+    }
+    else{
+        console.log('You are not Eligible');
+    } */
 
   // if - else ladder
 
-  age = 26;
 
-  if ( age > 18){
-        console.log('Hurray! You are eligible and won 10% Cashback');   
-  }
+    /* var age = 32;
+      
+    
+      if ( age >= 65 ){
+            console.log("Hurray! You are eligible and won 10% Cashback");   
+      }
+      else if ( age >= 50){ 
+          console.log("Hurray! You are eligible and won 15% Cashback");
+      }
+    
+      else if ( age >= 30){
+          console.log("Hurray! You are eligible and won 20% Cashback");
+      }
+    
+      else if ( age >= 25){
+          console.log("Hurray! You are eligible and won 30% Cashback");
+      }
+    
+      else if ( age >= 18){
+          console.log("Hurray! You are eligible and won 50% Cashback");
+      }   
+    
+      else {
+          console.log("Sorry! You are not eligible");
+      }
+        console.log("Thanks to visit our website.");
+    
 
-  else if ( age > 25){ 
-      console.log('Hurray! You are eligible and won 15% Cashback');
-  }
+    */
 
-  else if ( age > 30){
-      console.log('Hurray! You are eligible and won 20% Cashback');
-  }
+    var arr = [1,2,3,4,"5",6,7,8,9,10];
+    //     console.log(arr);    
+    // for(var i=0;i<arr.length;i++){
+    // console.log(arr[i]);
+    // }    
 
-  else if ( age > 50){
-      console.log('Hurray! You are eligible and won 30% Cashback');
-  }
+    // arr.forEach(function(element){
+    //     console.log(element)
+    // })
 
-  else if ( age > 65){
-      console.log('Hurray! You are eligible and won 50% Cashback');
-  }   
+    let j=0;
+    // while(j<arr.length){
+    //     console.log(arr[j]);
+    //     j++;
+    // }
 
-  else {
-      console.log('Sorry! You are not eligible');
-  }
+    do{
+        console.log(arr[j])
+        j++;
+    }
+    while(j<arr.length);
 
 </script>
-</html>     
+
+</html>
