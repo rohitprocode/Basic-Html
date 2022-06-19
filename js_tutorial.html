@@ -8,7 +8,7 @@
     <title>JavaScript Tutorial</title>
 </head>
 
-<body>
+<body id="12">
     <h1>Welcome To this JavaScript Tutorial</h1>
     <div id="containerfirst" class="container">
         <button id="click">Click Me</button>
@@ -136,18 +136,18 @@
 
     c1 = avg(20, 10);
     c2 = avg(200, 500);
-//    console.log( c1, c2 );
+    //    console.log( c1, c2 );
 
-// Conditionals in JavaScripts
+    // Conditionals in JavaScripts
 
-// var age = 50;
+    // var age = 50;
 
-// Single if Statement
+    // Single if Statement
 
-//    if ( age > 18 ){
+    //    if ( age > 18 ){
     //    console.log('You are eligible');
-//    }
-//    if - else statement 
+    //    }
+    //    if - else statement 
 
     /* if ( age > 18 ){
         console.log('Hurray! Your are Eligile');
@@ -156,7 +156,7 @@
         console.log('You are not Eligible');
     } */
 
-  // if - else ladder
+    // if - else ladder
 
 
     /* var age = 32;
@@ -189,9 +189,15 @@
 
     */
 
-    var arr = [1,2,3,4,"5",6,7,8,9,10];
+    var arr = [1, 2, 3, 4, "5", 6, 7, 8, 9, 10];
     //     console.log(arr);    
     // for(var i=0;i<arr.length;i++){
+
+    //     if(i==6){
+    //         //   break;
+    //         continue;
+    //         }
+
     // console.log(arr[i]);
     // }    
 
@@ -199,18 +205,26 @@
     //     console.log(element)
     // })
 
-    let j=0;
+    let j = 0;
     // while(j<arr.length){
     //     console.log(arr[j]);
     //     j++;
     // }
 
-    do{
-        console.log(arr[j])
-        j++;
-    }
-    while(j<arr.length);
+    // do{
+    //     console.log(arr[j])
+    //     j++;
+    // }
+    // while(j<arr.length);
 
+    let myArr = ["Rohit", "Mohit", Push, Pull, Back, Front];
+
+    // Array Methods
+
+    console.log(myArr.length);
+    myArr.pop();
+    myArr.push("Rathore");
+    console.log(myArr);
+    
 </script>
-
 </html>
