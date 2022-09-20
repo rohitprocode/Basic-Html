@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript</title>
+</head>
+<body>
+
+    <h1>What Can Javascript Do? </h1>
+
+     <h4>1. Date Button</h4>
+    <button type="button" onclick="document.getElementById('para1').innerHTML= Date()" >Click To Display Date And Time</button>
+    <p id="para1"></p>    
+
+    <h4>2. Javascript Can Change HTML content</h4>
+    <button type="button" onclick="document.getElementById('para2').innerHTML= 'My Parrot Name is Alex'">Click To Change Content</button>
+    <p id="para2">My Name is Rohit Rathore</p>
+
+    <h4>3. Javascript Can Change the Style of an HTML Element</h4>
+    <button type="button" onclick="document.getElementById('para3').style.fontSize='50px'" >Click To Change HTML Element</button>
+    <p id="para3">Javascript Can Change the style of an HTML Element</p>
+
+    <h4>4. javascript Can Hide HTML Elements</h4>
+    <button type="button" onclick="document.getElementById('para4').style.display='none'" >Click To Hide HTML Content</button>
+    <p id="para4" >Java Script Can Hide HTML Element/Contents</p>
+
+    <h4>5. Javascript Can Show Hidden Elements</h4>
+    <button type="button" onclick="document.getElementById('para5').style.display = 'block'" >Click To Make Content Visible</button>
+    <p id="para5" style="display: none" >Hey! Why You Unhide Me</p>
+
+</body>
+</html>

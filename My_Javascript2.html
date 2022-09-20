@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript Part 2</title>
+    <script>
+        function Myfunction1() {
+            document.getElementById('para1').innerHTML = 'This change caused by Javascript'
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Where to insert Javascript</h1>
+    <h4>1. Javascript in &lt;head&gt;</h4>
+
+    <p id="para1">Javascript Reaction</p>
+    <button type="button" onclick="Myfunction1()">Click to Change Text</button>
+
+    <!-- First Textarea start from here:- -->
+    <p> <textarea cols="105" rows="24" style="background-color: black ; color : white"><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Javascript Part 2</title>
+        <script>
+            function Myfunction1() {
+                document.getElementById('para1').innerHTML = 'This change caused by Javascript'
+            }
+        </script>
+    </head>
+    <body>
+    
+        <h1>Where to insert Javascript</h1>
+        1. Javascript in &lt;head&gt;
+        
+        <p id="para1">Javascript Reaction</p>
+        <button type="button" onclick="Myfunction1()" >Click to Change Text</button>
+    </body>
+    </html>
+    </textarea>
+    </p>
+    <!-- Close First JS -->
+
+    <h4>2. Javascript in &lt;body&gt;</h4>
+
+    <p id="para2">Javascript Reaction</p>
+    <button type="button" onclick="Myfunction2()">Click to Change Text</button>
+
+    <script>
+        function Myfunction2() {
+            document.getElementById('para2').innerHTML = 'This change caused by Javascript';
+        }
+    </script>
+
+    <!-- Second Textarea Start From Here:- -->
+    <p><textarea cols="105" rows="21" style="background-color: black ; color : white "><!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript Part 2</title>
+    </head>
+    <body>
+    <h4>2. Javascript in &lt;body&gt;</h4>
+
+    <p id="para2">Javascript Reaction</p>
+    <button type="button" onclick="Myfunction2()">Click to Change Text</button>
+
+    <script>
+        function Myfunction2() {
+            document.getElementById('para2').innerHTML = 'This change caused by Javascript';
+        }
+    </script>
+    </body>
+    </html>
+    </textarea>
+    </p>
+    <!-- Close Second Js -->
+
+    <h4>3. Javascript in an External File</h4>
+    <p id="para3">Javascript Reaction</p>
+    <button type="button" onclick="Myfunction3()">Click to Change Text</button>
+    <script src="Myfunctionsrc.js"></script>
+
+    <!-- Third Textarea Start From Here:- -->
+    <p><textarea cols="105" rows="24" style="background-color: black ; color : white">
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Javascript Part 2</title>
+        </head>
+        <body>
+            <h4>3. Javascript in an External File</h4>
+            <p id="para3" >Javascript Reaction</p>
+            <button type="button" onclick="Myfunction3()" >Click to Change Text</button>
+            <script src="Myfunctionsrc.js"></script>
+
+            <p>In the JS File</p>
+
+            function Myfunction3(){
+                document.getElementById('para3').innerHTML="This change caused by Javascript"
+            }
+
+        </body>
+        
+        </textarea>
+    </p>
+    <!-- Close Third Js -->
+
+    <h4>4. Javascript in an External folder</h4>
+    <p id="para4">Javascript Reaction</p>
+    <button type="button" onclick="Myfunction4()">Click to change text</button>
+    <script src="Jsfile\Myfunctionsrc2.js"></script>
+
+    <!-- Fourth Textarea Start Form Here -->
+    <p><Textarea cols="100" rows="20" style="background-color: black ; color : white"> 
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Javascript Part 2</title>
+    </head>
+
+    <body>
+        <h4>4. Javascript in an External folder</h4>
+        <p id="para4">Javascript Reaction</p>
+        <button type="button" onclick="Myfunction4()">Click to change text</button>
+        <script src="Jsfile\Myfunctionsrc2.js"></script>
+    </body>
+    </html>
+    </Textarea></p>
+    <!-- Close Fourth Js  -->
+
+    
+</body>
+
+</html>
